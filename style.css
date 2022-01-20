@@ -61,7 +61,7 @@ header label {
     height: 90vh;
     background: #e8e7e3;
     transition: all 0.5s ;
-    /* transform: translateX(-100%); */
+    transform: translateX(-100%);
 }
 
 .menu a {
@@ -78,9 +78,9 @@ header label {
     background: rgba(255,255,255,0.3);
 }
 
-/* #menu-bar:checked ~ .menu {
+#menu-bar:checked ~ .menu {
     transform: translateX(-0%);
-} */
+}
 
 
 
@@ -101,7 +101,7 @@ header label {
     position: absolute;
     top: 50%;
     left: 50%;
-    /* transform: translateX(-50%) translateY(-50%); */
+    transform: translateX(-50%) translateY(-50%);
     color: rgb(63, 60, 60);
 }
 
@@ -250,7 +250,7 @@ footer .contenedor {
         display: flex;
         width: auto;
         height: auto;
-        /* transform: translateX(0%); */
+        transform: translateX(0%);
         float: right;
     }
 
